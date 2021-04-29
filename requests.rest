@@ -1,4 +1,4 @@
-GET http://localhost:5000/api/goals
+GET https://goals-app-mern.herokuapp.com/api/goals
 
 
 ###
@@ -26,3 +26,6 @@ Content-Type : application/json
 
 ###
 DELETE http://localhost:5000/api/goals/6089fb26205bb626409cd736
+
+###
+GET http://localhost:5000

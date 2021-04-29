@@ -2,7 +2,7 @@ GET https://goals-app-mern.herokuapp.com/api/goals
 
 
 ###
-POST http://localhost:5000/api/goals
+POST https://goals-app-mern.herokuapp.com/api/goals
 Content-Type : application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type : application/json
 }
 
 ###
-PUT http://localhost:5000/api/goals/6089fb23205bb626409cd735
+PUT https://goals-app-mern.herokuapp.com/api/goals/608a05fad2468900150e5cbc
 Content-Type : application/json
 
 {
@@ -25,7 +25,7 @@ Content-Type : application/json
 }
 
 ###
-DELETE http://localhost:5000/api/goals/6089fb26205bb626409cd736
+DELETE https://goals-app-mern.herokuapp.com/api/goals/608a05460e04f6001581cb0b
 
 ###
 GET http://localhost:5000

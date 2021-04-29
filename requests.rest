@@ -1,0 +1,28 @@
+GET http://localhost:5000/api/goals
+
+
+###
+POST http://localhost:5000/api/goals
+Content-Type : application/json
+
+{
+    "title" : "Become IAS",
+    "description" : "I want to become an IAS offier",
+    "category": "personal",
+    "completed" : false
+}
+
+###
+PUT http://localhost:5000/api/goals/6089fb23205bb626409cd735
+Content-Type : application/json
+
+{
+    "title" : "Read TAGR",
+    "description" : "I want to read TAGR completely",
+    "category": "personal",
+    "completed" : false
+
+}
+
+###
+DELETE http://localhost:5000/api/goals/6089fb26205bb626409cd736
